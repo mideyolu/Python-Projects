@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Phone Number Location Tracker</h1>
-    <form action="/result" method="post" class="form">
-        <label for="phone_number">Enter Phone Number with Country Code:</label>
-        <input type="text" id="phone_number" name="phone_number" required>
-        <button type="submit">Track Location</button>
-    </form>
+    <h1>Phone Number Location Tracker </h1>
+    <button onclick="showForm()">Track Location</button>
+
+    <div class="form-container" id="formContainer">
+        <form action="/result" method="post" class="form">
+            <label for="phone_number">Enter Phone Number with Country Code:</label>
+            <input type="text" id="phone_number" name="phone_number" required>
+            <button class="btn" type="submit">
+                <p>
+                    Track Location
+                </p></button>
+        </form>
+    </div>
+
+    <script>
+        function showForm() {
+            var formContainer = document.getElementById("formContainer");
+            formContainer.style.display = "flex";
+        }
+    </script>
 </body>
 </html>
