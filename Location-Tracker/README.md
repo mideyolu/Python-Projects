@@ -60,7 +60,7 @@ The application will be accessible at [http://localhost:5000/](http://localhost:
 
 ## Files
 
-- **app.py**: The main Flask application file.
+- **location.py**: The main Flask application file.
 - **index.html**: HTML template for the home page.
 - **result.html**: HTML template for displaying the results.
 - **static/styles.css**: CSS file for styling the HTML templates.
