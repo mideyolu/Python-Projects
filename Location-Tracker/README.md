@@ -21,7 +21,7 @@ This is a simple Flask web application that allows users to track the location a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mideyolu/phone-number-tracker.git
+   git clone https://github.com/mideyolu/Python-Projects/blob/main/Location-Tracker.gi
    cd Location-Tracker
    ```
 
