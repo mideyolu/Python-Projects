@@ -1,4 +1,4 @@
-Certainly! Here's a README.md file for your Flask application:
+
 
 ```markdown
 # Phone Number Location Tracker
@@ -21,7 +21,7 @@ This is a simple Flask web application that allows users to track the location a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mideyolu/phone-number-tracker.git
+   git clone https://github.com/mideyolu/Python-Projects/blob/main/Location-Tracker.git
    cd Location-Tracker
    ```
 
@@ -60,7 +60,7 @@ The application will be accessible at [http://localhost:5000/](http://localhost:
 
 ## Files
 
-- **app.py**: The main Flask application file.
+- **location.py**: The main Flask application file.
 - **index.html**: HTML template for the home page.
 - **result.html**: HTML template for displaying the results.
 - **static/styles.css**: CSS file for styling the HTML templates.
